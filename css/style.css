@@ -1,0 +1,81 @@
+/* === Estilos generales === */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Barra de navegación === */
+#menu {
+    background-color: black;
+    padding: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    background-color: #333;
+    color: blue;
+}
+
+#menu li a.activo {
+    color: blue;
+}
+
+/* === Icono de la casa === */
+.home-icon {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin: 5px 10px 0 15px;
+    filter: invert(100%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-icon:hover {
+    transform: scale(1.1);
+}
+
+/* === Encabezado === */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 20px 10px;
+}
+
+/* === Tabla === */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 20px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #999;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #cfe2ff;
+}
