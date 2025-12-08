@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAW</title>
+    <title>Curso - DAW</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
     <div id="menu">
         <ul>
             <li>
-                <a href="index.html">
-                    <img src="img/casa.jpg" alt="Inicio" class="home-icon">
+                <a href="../index.html">
+                    <img src="../img/casa.jpg" alt="Inicio" class="home-icon">
                 </a>
             </li>
             <li><a href="Curso.html" class="activo">CURSO</a></li>
@@ -23,27 +23,21 @@
         </ul>
     </div>
 
+    <h1>Elige un Curso de Informática</h1>
 
-    <!-- Contenido principal -->
-    <h1>DAW</h1>
-    <h2>Desarrollo de Aplicaciones Web</h2>
+     <img src="../img/cursos.jpg" alt="porfolio" id="banner">
 
-    <p>
-        Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas,
-        garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas
-        en los estándares establecidos.
-    </p>
+    <!-- Botones para seleccionar el curso -->
+    <button onclick="mostrarCurso('daw')">Curso de Desarrollo de Aplicaciones Web (DAW)</button>
+    <button onclick="mostrarCurso('dam')">Curso de Desarrollo de Aplicaciones Multiplataforma (DAM)</button>
+    <button onclick="mostrarCurso('asir')">Curso de Administración de Sistemas Informáticos en Red (ASIR)</button>
+    <button onclick="mostrarCurso('smr')">Curso de Sistemas Microinformáticos y Redes (SMR)</button>
 
-    <p>Este profesional será capaz de:</p>
+    <!-- Contenedor donde se mostrará la información del curso -->
+    <div id="descripcion-curso"></div>
 
-    <ul>
-        <li>Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.</li>
-        <li>Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.</li>
-        <li>Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.</li>
-        <li>Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.</li>
-        <li>Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.</li>
-        <li>Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.</li>
-    </ul>
+    <!-- Enlazamos el archivo JS -->
+    <script src="../js/script.js"></script>
 
 </body>
 </html>
